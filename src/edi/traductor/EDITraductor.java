@@ -6,6 +6,7 @@ public class EDITraductor {
         String ediDocument = "C:\\Users\\Windows\\Documents\\NetBeansProjects\\X214_sample.txt";
         Traductor traductor = new Traductor(ediDocument);
         System.out.println(traductor.Validator());
+        System.out.println("HOLA MUNDO");
     }
     
 }
